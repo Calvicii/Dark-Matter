@@ -1627,7 +1627,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 30px !important;
   padding: 12px;
   margin: 12px 21px 0;
-  background-color: rgb(80, 80, 80) !important;
+  background-color: rgb(50, 50, 50) !important;
   color: white !important;
 }
 
@@ -1642,7 +1642,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .quick-toggle-menu .popup-menu-item:focus, .quick-toggle-menu .popup-menu-item:hover, .quick-toggle-menu .popup-menu-item.selected {
-  color: rgba(0, 0, 0, 0.75) !important;
+  color: rgba(255, 255, 255, 1) !important;
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
