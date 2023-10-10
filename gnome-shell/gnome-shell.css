@@ -2425,7 +2425,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   box-shadow: none;
   background-color: rgba(0, 0, 0, 0.65);
   margin: 3px;
-  border-radius: 9999px;
+  border-radius: 6px;
 }
 
 #panel.unlock-screen, #panel.login-screen, #panel:overview {
@@ -2452,7 +2452,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -minimum-hpadding: 11px;
   transition-duration: 150ms;
   border: 3px solid transparent;
-  border-radius: 9999px;
+  border-radius: 6px;
   margin: 0;
 }
 
@@ -2731,23 +2731,23 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   margin-top: 12px;
   margin-bottom: 6px;
   border: none !important;
-  caret-color: rgba(0, 0, 0, 0.75);
-  color: rgba(0, 0, 0, 0.75);
-  background-color: rgba(255, 255, 255, 0.75);
+  caret-color: white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
   border-color: transparent;
   box-shadow: none;
 }
 
 #overview .search-entry:hover {
-  color: rgba(0, 0, 0, 0.75);
-  background-color: rgba(255, 255, 255, 0.85);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.10);
   box-shadow: none;
 }
 
 #overview .search-entry:focus {
-  color: rgba(0, 0, 0, 0.85);
+  color: white;
   border-color: transparent;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.15);
   border: none;
   box-shadow: none;
   selection-background-color: #3281EA;
@@ -2755,15 +2755,15 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #overview .search-entry .search-entry-icon {
-  color: rgba(0, 0, 0, 0.65);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 #overview .search-entry:hover .search-entry-icon, #overview .search-entry:focus .search-entry-icon {
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 #overview .search-entry StLabel.hint-text {
-  color: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.35);
 }
 
 /* Search */
