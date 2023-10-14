@@ -1538,9 +1538,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .menu StScrollView.menu-application-button {
   padding: 3px 0;
+  border: 2px solid rgba(255, 255, 255, 0.05);
   border-radius: 14px;
   color: white !important;
-  /* background-color: rgba(255, 255, 255, 0.95) !important; */
+  /* background-color: rgba(255, 255, 255, 0.05) !important; */
 }
 
 .menu StScrollView.menu-application-button .popup-menu-item {
