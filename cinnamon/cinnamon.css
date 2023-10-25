@@ -881,10 +881,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-day-base:hover {
   background-color: rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(255, 255, 255, 0.04);
 }
 
 .calendar-day-base:active {
   background-color: rgba(255, 255, 255, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.12);
 }
 
 .calendar-day-base:selected {
@@ -899,14 +901,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .calendar-day {
   border-width: 0;
   color: rgba(255, 255, 255, 0.7);
+  border: 2px solid transparent;
 }
 
 .calendar-day-top {
   border-top-width: 0;
+  border: 2px solid transparent;
 }
 
 .calendar-day-left {
   border-left-width: 0;
+  border: 2px solid transparent;
 }
 
 .calendar-nonwork-day {
