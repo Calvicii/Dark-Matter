@@ -881,16 +881,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-day-base:hover {
   background-color: rgba(255, 255, 255, 0.04);
-  border: 2px solid rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(255, 255, 255, 0.06);
 }
 
 .calendar-day-base:active {
-  background-color: rgba(255, 255, 255, 0.12);
-  border: 2px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 2px solid rgba(255, 255, 255, 0.08);
 }
 
 .calendar-day-base:selected {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .calendar-day-heading {
@@ -921,14 +922,26 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-today,
-.calendar-today:active,
-.calendar-today:focus,
-.calendar-today:hover,
-.calendar-today:selected {
+.calendar-today:focus {
   font-weight: bold;
   color: white;
-  background-color: #3281EA;
+  background-color: rgba(50, 129, 234, 0.70);
   border-width: 0;
+}
+
+.calendar-today:hover {
+  background-color: rgba(50, 129, 234, 0.80);
+  border: 2px solid rgba(255, 255, 255, 0.30);
+}
+
+.calendar-today:active {
+  background-color: rgba(50, 129, 234, 0.90);
+  border: 2px solid rgba(255, 255, 255, 0.30);
+}
+
+.calendar-today:selected {
+  background-color: rgba(50, 129, 234, 1);
+  border: 2px solid rgba(255, 255, 255, 0.30);
 }
 
 .calendar-other-month-day {
