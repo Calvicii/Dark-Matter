@@ -926,18 +926,21 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-day-base:hover, .calendar-day-base:focus {
   background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
   box-shadow: none;
 }
 
 .calendar-day-base:active {
   color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.24) !important;
   border-color: transparent;
 }
 
 .calendar-day-base:selected {
   color: white;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.32) !important;
   border-color: transparent;
 }
 
@@ -957,14 +960,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .calendar-day {
   border-width: 0;
+  border: 2px solid transparent;
 }
 
 .calendar-day-top {
   border-top-width: 0;
+  border: 2px solid transparent;
 }
 
 .calendar-day-left {
   border-left-width: 0;
+  border: 2px solid transparent;
 }
 
 .calendar-nonwork-day {
@@ -975,7 +981,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   font-weight: bold !important;
   color: white !important;
   background-color: #3281EA !important;
-  border: none;
 }
 
 .calendar-today:hover, .calendar-today:focus {
