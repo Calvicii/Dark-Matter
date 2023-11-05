@@ -309,21 +309,21 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 14px;
   background-gradient-direction: none;
   box-shadow: none;
-  color: rgba(0, 0, 0, 0.75) !important;
-  background-color: rgba(255, 255, 255, 0.95) !important;
+  color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
 }
 
 .menu .popup-sub-menu .popup-menu-item,
 .popup-menu .popup-sub-menu .popup-menu-item,
 .popup-combo-menu .popup-sub-menu .popup-menu-item {
-  color: rgba(0, 0, 0, 0.75) !important;
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 .menu .popup-sub-menu .popup-menu-item:active,
 .popup-menu .popup-sub-menu .popup-menu-item:active,
 .popup-combo-menu .popup-sub-menu .popup-menu-item:active {
-  color: rgba(0, 0, 0, 0.85) !important;
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .menu .popup-sub-menu .popup-menu-item:active .popup-inactive-menu-item,
